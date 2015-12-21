@@ -1,0 +1,75 @@
+﻿<Window x:Class="Foodvaultwpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" FontStretch="Normal" Width="1024" Height="800">
+    <Grid Name="grid1">
+        <TabControl HorizontalAlignment="Left" Margin="10,8,0,0" Name="tabControl1" VerticalAlignment="Top" Height="727" Width="980" TabStripPlacement="Left" FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Normal" Padding="0">
+            <TabControl.Resources>
+                <Style TargetType="{x:Type TabItem}">
+                    <Setter Property="HeaderTemplate">
+                        <Setter.Value>
+                            <DataTemplate>
+                                <ContentPresenter Content="{TemplateBinding Content}">
+                                    <ContentPresenter.LayoutTransform>
+                                        <RotateTransform Angle="270" />
+                                    </ContentPresenter.LayoutTransform>
+                                </ContentPresenter>
+                            </DataTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Resources>
+            <TabItem Header="Rezepte" Name="tabItem1" Margin="1" FontStretch="Normal" Padding="8" Background="#FFB4B4FF">
+                <Grid Name="grid2">
+                    <Grid.Background>
+                        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                            <GradientStop Color="#FFB4B4FF" Offset="0" />
+                            <GradientStop Color="White" Offset="1" />
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <ComboBox Height="21" HorizontalAlignment="Left" Margin="29,131,0,0" Name="recSortBox" VerticalAlignment="Top" Width="239" IsEditable="True" Text="sortieren nach..." FontWeight="Normal" SelectionChanged="recSortBox_SelectionChanged" IsReadOnly="True">
+                        <ComboBoxItem Content="Kalorien (aufsteigend)" />
+                        <ComboBoxItem Content="Kalorien(absteigend)" />
+                        <ComboBoxItem Content="Zeit (aufsteigend)" />
+                        <ComboBoxItem Content="Zeit (absteigend)" />
+                        <ComboBoxItem Content="[NIY] Kosten (aufsteigend)" />
+                        <ComboBoxItem Content="[NIY] Kosten (absteigend)" />
+                    </ComboBox>
+                    <ListBox Height="538" HorizontalAlignment="Left" Margin="29,158,0,0" Name="recListBox" VerticalAlignment="Top" Width="239" SelectionChanged="recListBox_SelectionChanged" />
+                    <TextBox Height="29" HorizontalAlignment="Left" Margin="755,215,0,0" Name="recCalText" VerticalAlignment="Top" Width="149" IsReadOnly="True" />
+                    <TextBox Height="29" Margin="755,250,30,0" Name="recTimeText" VerticalAlignment="Top" IsReadOnly="True" />
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" Height="414" Width="545" Margin="359,285,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <TextBlock Name="recPrepTBlock" Text=""   Background="White" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" />
+                    </ScrollViewer>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" Height="273" Width="390" Margin="359,6,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <DataGrid x:Name="recIngDGrid" SelectionChanged="recIngDGrid_SelectionChanged" Width="377" AutoGenerateColumns="False" >
+                            <DataGrid.RowDetailsTemplate>
+                                <DataTemplate>
+                                    <TextBlock Background="#FFA4F3DA" Text="{Binding Tooltip}" 
+                               HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                                </DataTemplate>
+                            </DataGrid.RowDetailsTemplate>
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding Amount}" Header="Menge" CanUserReorder="False" IsReadOnly="True" />
+                                <DataGridTextColumn Binding="{Binding Name}" Header="Zutat" Width="*" CanUserReorder="False" IsReadOnly="True"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </ScrollViewer>
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="29,102,0,0" Name="recSearchBox" VerticalAlignment="Top" Width="158" />
+                    <Button Content="Suche" Height="23" HorizontalAlignment="Left" Margin="193,101,0,0" Name="recSearchBtn" VerticalAlignment="Top" Width="75" Click="recSearchBtn_Click" />
+                    <Button Content="neues Rezept eintragen" Height="25" HorizontalAlignment="Left" Margin="29,6,0,0" Name="recOpenImportBtn" VerticalAlignment="Top" Width="236" Click="recOpenImportBtn_Click" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Obst" Margin="1" FontStretch="Normal" Padding="8" Background="#FFFF9D00">
+                <ScrollViewer VerticalScrollBarVisibility="auto" Width="auto" Height="auto">
+                    <Image Name="image2" Stretch="Fill" Source="/Foodvaultwpf;component/saisonFru.png" />
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Gemüse" Margin="1" Padding="8" Background="#FF56A10E">
+                <ScrollViewer VerticalScrollBarVisibility="auto" Width="auto" Height="auto">
+                    <Image HorizontalAlignment="Left" Name="image1" Stretch="Fill" VerticalAlignment="Top" Source="/Foodvaultwpf;component/saisonVeg.png" />
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

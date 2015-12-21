@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Recipes>
+  <Recipe>
+    <Name>Test1</Name>
+    <Calories>300</Calories>
+  </Recipe>
+  <Recipe>
+    <Name>Test6</Name>
+    <Calories>400</Calories>
+  </Recipe>
+  <Recipe>
+    <Name>Test2</Name>
+    <Calories>500</Calories>
+  </Recipe>
+  <Recipe>
+    <Name>Test3</Name>
+    <Calories>530</Calories>
+  </Recipe>
+  <Recipe>
+    <Name>Test4</Name>
+    <Calories>600</Calories>
+  </Recipe>
+</Recipes>

@@ -1,0 +1,10 @@
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\bin\Release\Foodvault.exe.config
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\obj\x86\Release\ResolveAssemblyReference.cache
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\obj\x86\Release\Foodvault.Form1.resources
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\obj\x86\Release\Foodvault.Properties.Resources.resources
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\obj\x86\Release\GenerateResource.read.1.tlog
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\obj\x86\Release\GenerateResource.write.1.tlog
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\bin\Release\Foodvault.exe
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\bin\Release\Foodvault.pdb
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\obj\x86\Release\Foodvault.exe
+c:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvault\obj\x86\Release\Foodvault.pdb

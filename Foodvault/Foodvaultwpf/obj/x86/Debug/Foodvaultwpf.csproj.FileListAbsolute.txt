@@ -1,0 +1,13 @@
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.pdb
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.baml
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\App.g.cs
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.cache
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.g.resources
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.Properties.Resources.resources
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
+C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Recipes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="recipe_schema.xsd">
+  <Recipe>
+    <Name>Schwarzwälder Kirsch Cupcakes</Name>
+    <Calories>300</Calories> <!--kcal-->
+    <Time>30</Time> <!-- minutes -->
+	  <Ingredients>
+      <Ingredient>
+        <Amount>100 g</Amount>
+        <Name>Butter</Name>
+      </Ingredient>
+	    <Ingredient>
+        <Amount>50 g</Amount>
+        <Name>Schokolade, (Zartbitterschokolade), gehackt</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>130 g</Amount>
+        <Name>Zucker, brauner</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>2</Amount>
+        <Name>Ei(er)</Name>
+      </Ingredient>  	
+	    <Ingredient>
+        <Amount>1 TL</Amount>
+        <Name>Backpulver</Name>
+      </Ingredient>
+	    <Ingredient>
+        <Amount>1 Prise(n)</Amount>
+        <Name>Salz</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>180 g</Amount>
+        <Name>Mehl</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>3 EL</Amount>
+        <Name>Kakaopulver</Name>
+      </Ingredient>
+	    <Ingredient>
+        <Amount>100 ml</Amount>
+        <Name>Milch</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>1/2 Glas</Amount>
+        <Name>Schattenmorellen</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>2 EL</Amount>
+        <Name>Speisestärke</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>1 EL</Amount>
+        <Name>Kirschwasser</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>400 ml</Amount>
+        <Name>Schlagsahne</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>1 Pck.</Amount>
+        <Name>Sahnesteif</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>1 Pck.</Amount>
+        <Name>Vanillezucker</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>2 EL</Amount>
+        <Name>Schokoladenraspel</Name>
+      </Ingredient> 	
+	    <Ingredient>
+        <Amount>12 Stück(e)</Amount>
+        <Name>Papierförmchen für Muffins</Name>
+      </Ingredient> 	
+	  </Ingredients>
+	  <Preparation>
+	    Den Backofen auf 180°C (Ober-/ Unterhitze) vorheizen und eine 12er Muffinform mit Papierförmchen bestücken. Die Butter mit der gehackten Zartbitterschokolade in der Mikrowelle oder im Wasserbad schmelzen. Beiseite stellen und abkühlen lassen.
+
+	    Die abgekühlte Schokobutter mit dem Zucker schaumig schlagen und die Eier einzeln unterrühren. Das Mehl mit dem Backpulver, Salz und Kakaopulver mischen, über die Eiermasse sieben und mit der Milch unterrühren. Den Teig in die Förmchen geben und etwa 20 Minuten bei 180°C backen.
+
+	    Die fertigen Schokoküchlein auskühlen lassen und anschließend mit einem Apfelausstecher oder einem Teelöffel einen Keil herauslösen.
+
+	    Für die Kirschfüllung ca. 150 ml Saft aus dem Kirschglas mit 2 EL Speisestärke in einem Messbecher glatt rühren. Die Hälfte der Kirschen mit etwas Saft in einen kleinen Topf geben und erhitzen. Die angerührte Speisestärke unter Rühren dazugeben. Weiter rühren, bis die Flüssigkeit bindet. Zum Schluss das Schwarzwälder Kirschwasser unterrühren. Nun die Kirschmasse in die Aushöhlungen der Schokoküchlein füllen.
+
+	    Die kalte Sahne mit Sahnesteif und Vanillezucker steif schlagen, auf die Schokoküchlein spritzen und jedes mit einer Kirsche und Schokoraspeln verzieren.
+	  </Preparation>
+  </Recipe>
+  
+</Recipes>

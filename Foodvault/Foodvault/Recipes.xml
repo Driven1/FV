@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Recipes>
+  <Recipe>
+    <Name>Test1</Name>
+    <Calories>300</Calories> <!--kcal-->
+    <Time>25</Time> <!-- minutes -->
+  </Recipe>
+  <Recipe>
+    <Name>Test6</Name>
+    <Calories>400</Calories>
+    <Time>15</Time>
+  </Recipe>
+  <Recipe>
+    <Name>Test2</Name>
+    <Calories>500</Calories>
+    <Time>43</Time>
+  </Recipe>
+  <Recipe>
+    <Name>Test3</Name>
+    <Calories>530</Calories>
+    <Time>120</Time>
+  </Recipe>
+  <Recipe>
+    <Name>Test4</Name>
+    <Calories>600</Calories>
+    <Time>90</Time>
+  </Recipe>
+  <Recipe>
+    <Name>Test12</Name>
+    <Calories>100</Calories>
+    <Time>24</Time>
+  </Recipe>
+  <Recipe>
+    <Name>Test76</Name>
+    <Calories>152</Calories>
+    <Time>87</Time>
+  </Recipe>
+  <Recipe>
+    <Name>Test42</Name>
+    <Calories>151</Calories>
+    <Time>97</Time>
+  </Recipe>
+</Recipes>

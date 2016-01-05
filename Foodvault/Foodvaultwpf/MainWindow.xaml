@@ -1,7 +1,21 @@
 ﻿<Window x:Class="Foodvaultwpf.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:TempSel="clr-namespace:TemplateSelectors;assembly="
         Title="MainWindow" FontStretch="Normal" Width="1024" Height="800">
+    <Window.Resources>
+        <DataTemplate x:Key="FalseTemp">
+            <TextBlock Background="DarkViolet" Text="{Binding Tooltip}" 
+                                       HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        </DataTemplate>
+        <DataTemplate x:Key="TrueTemp">
+            <TextBlock Background="#FFA4F3DA" Text="{Binding Tooltip}" 
+                                       HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        </DataTemplate>
+        
+        <TempSel:CustomRowDetailTemplateSelector x:Key="RowDetTempSel" />
+        
+    </Window.Resources>
     <Grid Name="grid1">
         <TabControl HorizontalAlignment="Left" Margin="10,8,0,0" Name="tabControl1" VerticalAlignment="Top" Height="727" Width="980" TabStripPlacement="Left" FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Normal" Padding="0">
             <TabControl.Resources>
@@ -42,13 +56,17 @@
                         <TextBlock Name="recPrepTBlock" Text=""   Background="White" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" />
                     </ScrollViewer>
                     <ScrollViewer VerticalScrollBarVisibility="Auto" Height="273" Width="390" Margin="359,6,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-                        <DataGrid x:Name="recIngDGrid" SelectionChanged="recIngDGrid_SelectionChanged" Width="377" AutoGenerateColumns="False" >
-                            <DataGrid.RowDetailsTemplate>
-                                <DataTemplate>
-                                    <TextBlock Background="#FFA4F3DA" Text="{Binding Tooltip}" 
-                               HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
-                                </DataTemplate>
-                            </DataGrid.RowDetailsTemplate>
+                        <DataGrid x:Name="recIngDGrid" SelectionChanged="recIngDGrid_SelectionChanged" Width="377" AutoGenerateColumns="False" RowDetailsTemplateSelector="{StaticResource RowDetTempSel}">
+                            <DataGrid.RowStyle>
+                                <Style TargetType="DataGridRow">
+                                    <Setter Property="Background" Value="Gray" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding NutActive}" Value="True">
+                                            <Setter Property="Background" Value="Green"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGrid.RowStyle>
                             <DataGrid.Columns>
                                 <DataGridTextColumn Binding="{Binding Amount}" Header="Menge" CanUserReorder="False" IsReadOnly="True" />
                                 <DataGridTextColumn Binding="{Binding Name}" Header="Zutat" Width="*" CanUserReorder="False" IsReadOnly="True"/>

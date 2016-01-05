@@ -62,26 +62,20 @@ namespace Foodvaultwpf.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
-        ///&lt;Recipes&gt;
+        ///&lt;Recipes xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+        ///         xsi:noNamespaceSchemaLocation=&quot;recipe_schema.xsd&quot;&gt;
         ///  &lt;Recipe&gt;
         ///    &lt;Name&gt;Schwarzwälder Kirsch Cupcakes&lt;/Name&gt;
         ///    &lt;Calories&gt;300&lt;/Calories&gt; &lt;!--kcal--&gt;
         ///    &lt;Time&gt;30&lt;/Time&gt; &lt;!-- minutes --&gt;
-        ///	&lt;Ingredients&gt;
-        ///	100 g 	Butter
-        ///	50 g 	Schokolade, (Zartbitterschokolade), gehackt
-        ///	130 g 	Zucker, brauner
-        ///	2  	Ei(er)
-        ///	1 TL 	Backpulver
-        ///	1 Prise(n) 	Salz
-        ///	180 g 	Mehl
-        ///	3 EL 	Kakaopulver
-        ///	100 ml 	Milch
-        ///	1/2 Glas 	Schattenmorellen
-        ///	2 EL 	Speisestärke
-        ///	1 EL 	Kirschwasser
-        ///	400 ml 	Schlagsahne
-        ///	1 Pck. 	Sahneste [rest of string was truncated]&quot;;.
+        ///	  &lt;Ingredients&gt;
+        ///      &lt;Ingredient&gt;
+        ///        &lt;Amount&gt;100 g&lt;/Amount&gt;
+        ///        &lt;Name&gt;Butter&lt;/Name&gt;
+        ///      &lt;/Ingredient&gt;
+        ///	    &lt;Ingredient&gt;
+        ///        &lt;Amount&gt;50 g&lt;/Amount&gt;
+        ///        &lt;Name&gt;Schokolade, (Zartbitte [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Recipes {
             get {

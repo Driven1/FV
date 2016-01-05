@@ -15,6 +15,7 @@ namespace Foodvaultwpf
         public float Fat { get; set; }
         public float Carbs { get; set; }
         private string tooltip;
+        public bool NutActive { get; set; }
         public string Tooltip
         {
             get
@@ -48,6 +49,7 @@ namespace Foodvaultwpf
         {
             Amount = am;
             Name = na;
+            NutActive = false;
             
         }
 
@@ -58,6 +60,7 @@ namespace Foodvaultwpf
             Protein = ing.protein;
             Fat = ing.fat;
             Carbs = ing.carbs;
+            NutActive = true;
             
         }
     }

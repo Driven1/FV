@@ -9,9 +9,16 @@
   </Ingredient>
   <Ingredient>
     <Name>Butter</Name>
-    <Calories>200</Calories>
-    <Protein>32</Protein>
-    <Fat>58.8</Fat>
-    <Carbs>5</Carbs>
+    <Calories>741</Calories>
+    <Protein>0.7</Protein>
+    <Fat>83.2</Fat>
+    <Carbs>0.6</Carbs>
+  </Ingredient>
+  <Ingredient>
+    <Name>Schokolade, zartbitter</Name>
+    <Calories>514</Calories>
+    <Protein>6.5</Protein>
+    <Fat>28.8</Fat>
+    <Carbs>52.6</Carbs>
   </Ingredient>
 </Ingredients>

@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4LGjzo+uwKfeL6IkR7d22+/fy7YxpkmOrqga1LKtLYI=</dsig:DigestValue>
+        <dsig:DigestValue>uYoXQD2WozKupBGc4zda/KMMvmp4+eLI2v0RE/EQccI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,13 +74,13 @@
       <dsig:DigestValue>tEc57v+C2ytXWkW2aIk+L+j90kpwnL8FVHMv01ILIZA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Ingredients.xml" size="570" writeableType="applicationData">
+  <file name="Ingredients.xml" size="389" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>F7S84fjqPkoYOq4JSjgGAbCAKWyDq789A8G4vL0NcGc=</dsig:DigestValue>
+      <dsig:DigestValue>gG4CkxnevPLZ77bsfrTnhH/G7nG/QkiAD40eLAW0ZcI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="recipe_schema.xsd" size="1400">
@@ -92,13 +92,13 @@
       <dsig:DigestValue>+I2Q8X2qtoEXv2V2734F+rdg41UY7PcN9Ni5d7UNMIw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Recipes.xml" size="3559" writeableType="applicationData">
+  <file name="Recipes.xml" size="3580" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KyPbPiQLBW3bpRLygujGBAe6mDYrZfxzVDP14IkZq9A=</dsig:DigestValue>
+      <dsig:DigestValue>cOfIGHhyffIiw3YEovXeMyColRuya3ul1EY+bwJJdR0=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

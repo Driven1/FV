@@ -43,18 +43,6 @@
                     </ScrollViewer>
                     <ScrollViewer VerticalScrollBarVisibility="Auto" Height="273" Width="390" Margin="359,6,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
                         <DataGrid x:Name="recIngDGrid" SelectionChanged="recIngDGrid_SelectionChanged" Width="377" AutoGenerateColumns="False" >
-                            <DataGrid.RowStyle>
-                                <Style TargetType="DataGridRow">
-                                    <Style.Triggers>
-                                        <DataTrigger Binding="{Binding nutIsSet}" Value="false">
-                                            <Setter Property="Background" Value="Red"></Setter>
-                                        </DataTrigger>
-                                        <DataTrigger Binding="{Binding nutIsSet}" Value="true">
-                                            <Setter Property="Background" Value="Green"></Setter>
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </DataGrid.RowStyle>
                             <DataGrid.RowDetailsTemplate>
                                 <DataTemplate>
                                     <TextBlock Background="#FFA4F3DA" Text="{Binding Tooltip}" 

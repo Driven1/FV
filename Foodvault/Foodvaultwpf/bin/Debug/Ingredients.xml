@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Ingredients>
-  <Ingredient>
+<Ingredients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="Ingredients.xsd">
+  <Ingredient ingID="1">
     <Name>Paprika</Name>
     <Calories>200</Calories>
     <Protein>32</Protein>
-    <Fat>0,8</Fat>
+    <Fat>0.8</Fat>
     <Carbs>5</Carbs>
   </Ingredient>
-  <Ingredient>
+  <Ingredient ingID="2">
     <Name>Butter</Name>
     <Calories>200</Calories>
     <Protein>32</Protein>

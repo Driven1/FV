@@ -21,6 +21,7 @@
                           <xs:element name="Amount" type="xs:string" />
                           <xs:element name="Name" type="xs:string" />
                         </xs:sequence>
+                        <xs:attribute name="ingID" type="xs:int" use="optional" />
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
@@ -28,9 +29,14 @@
               </xs:element>
               <xs:element name="Preparation" type="xs:string" />
             </xs:sequence>
+            <xs:attribute name="recID" type="xs:int" use="required" />
           </xs:complexType>
         </xs:element>
       </xs:sequence>
     </xs:complexType>
+    <xs:unique name="UniqueRecID">
+      <xs:selector xpath="Recipe" />
+      <xs:field xpath="@recID" />
+    </xs:unique>
   </xs:element>
 </xs:schema>

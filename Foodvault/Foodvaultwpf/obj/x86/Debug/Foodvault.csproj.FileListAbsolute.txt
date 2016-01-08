@@ -4,7 +4,6 @@ C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\App.g.cs
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_Content.g.cs
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.cache
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.config
-C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csprojResolveAssemblyReference.cache
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\recipe_schema.xsd
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Ingredients.xml
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Recipes.xml
@@ -26,3 +25,9 @@ C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.application
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Lucene.Net.dll
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Lucene.Net.pdb
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Lucene.Net.xml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\SplashWindow.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\SplashWindow.baml

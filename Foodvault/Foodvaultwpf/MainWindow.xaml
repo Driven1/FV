@@ -5,8 +5,11 @@
         Title="MainWindow" FontStretch="Normal" Width="1024" Height="800">
     <Window.Resources>
         <DataTemplate x:Key="FalseTemp">
-            <TextBlock Background="DarkViolet" Text="{Binding Tooltip}" 
-                                       HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <StackPanel>
+                <TextBlock Background="DarkViolet" Text="Für diese Zutat liegen keine Werte vor" VerticalAlignment="Center" FontFamily="Segoe UI" FontSize="10.667">
+                <Button Content="Suche" HorizontalAlignment="Left" Margin="2,0,0,0" Name="ingSearchBtn" Padding="0" FontFamily="Segoe UI Light" FontSize="10.667" />
+                </TextBlock>
+            </StackPanel>
         </DataTemplate>
         <DataTemplate x:Key="TrueTemp">
             <TextBlock Background="#FFA4F3DA" Text="{Binding Tooltip}" 

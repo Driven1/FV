@@ -8,20 +8,17 @@ namespace Foodvaultwpf
     /// Interaktionslogik für MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
-        private RecipeList instanceList = new RecipeList();
-        private IngredientsList ingsInstanceList = new IngredientsList();
-        
+    { 
 
         public MainWindow()
         {
             InitializeComponent();
-            ingsInstanceList.FillMyList();
+            new SplashWindow().ShowDialog();
         }
 
         private void recSortBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            recListBox.ItemsSource = instanceList.SortMyList(recListBox.Items, recSortBox.SelectedIndex);
+            recListBox.ItemsSource = RecipeList.SortMyList(recListBox.Items, recSortBox.SelectedIndex);
         }
 
         private void recListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -32,17 +29,7 @@ namespace Foodvaultwpf
                 recTimeText.Text = ((Recipe)recListBox.SelectedItem).TTC.ToString() + " min.";
                 recPrepTBlock.Text = ((Recipe)recListBox.SelectedItem).PREP.ToString();
                 recIngDGrid.ItemsSource = ((Recipe)recListBox.SelectedItem).INGS;
-                foreach (Inst_Ing ing in ((Recipe)recListBox.SelectedItem).INGS)
-                {
-                    try
-                    {
-                        ing.setNutritionals(ingsInstanceList.FindIng(ing.Name));
-                    }
-                    catch
-                    {
-                            
-                    }
-                }
+                
             }
             catch
             {
@@ -55,7 +42,7 @@ namespace Foodvaultwpf
 
         private void recSearchBtn_Click(object sender, RoutedEventArgs e)
         {
-            recListBox.ItemsSource = (instanceList.SearchMyList(recSearchBox.Text));
+            recListBox.ItemsSource = (RecipeList.SearchMyList(recSearchBox.Text));
             recListBox.DisplayMemberPath = "NAME";
         }
 
@@ -73,6 +60,12 @@ namespace Foodvaultwpf
                 (Inst_Ing)recIngDGrid.SelectedItem.setNutritionals(ingsInstanceList.FindIng(row.Row.ItemArray[index].ToString()));
             }
             */
+        }
+
+        private void ingSearchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            NewIng newing = new NewIng();
+            newing.Show();
         }
     }
 }

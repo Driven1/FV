@@ -4,17 +4,17 @@
   <description asmv2:publisher="Foodvaultwpf" asmv2:product="Foodvaultwpf" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Foodvaultwpf.exe.manifest" size="5404">
+    <dependentAssembly dependencyType="install" codebase="Foodvaultwpf.exe.manifest" size="6779">
       <assemblyIdentity name="Foodvaultwpf.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DSLWLgznqjf4QFk89PnWa/nqZg6LyprkPZCNp2bcxIc=</dsig:DigestValue>
+        <dsig:DigestValue>53FPfkXmumD0Mpv+0gh3FkbzdPKPpwOuQzry8+LNzOo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

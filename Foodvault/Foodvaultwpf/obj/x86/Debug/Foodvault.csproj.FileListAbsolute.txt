@@ -1,119 +1,36 @@
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.pdb
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.baml
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.g.cs
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\App.g.cs
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.cache
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.g.resources
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.Properties.Resources.resources
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Recipes.xml
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_Content.g.cs
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Recipes.xml
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.pdb
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.baml
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.g.cs
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\App.g.cs
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_Content.g.cs
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.cache
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.g.resources
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.Properties.Resources.resources
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csproj.GenerateResource.Cache
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.application
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.application
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.baml
-C:\Users\Driven\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.g.cs
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.application
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.dll
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.pdb
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.xml
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.baml
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.g.cs
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Fiae\Documents\Visual Studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.application
-C:\Users\Fiae\documents\visual studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csprojResolveAssemblyReference.cache
-C:\Users\Fiae\documents\visual studio 2010\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csproj.GenerateResource.Cache
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\bin\Debug\Recipes.xml
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.application
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.pdb
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.dll
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.pdb
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.xml
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csprojResolveAssemblyReference.cache
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.baml
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.baml
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.g.cs
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.g.cs
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\App.g.cs
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_Content.g.cs
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.cache
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.g.resources
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.Properties.Resources.resources
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csproj.GenerateResource.Cache
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.application
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
-C:\Users\Fiae\Desktop\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Recipes.xml
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.application
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.pdb
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.dll
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.pdb
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.xml
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.baml
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.baml
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.g.cs
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.g.cs
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\App.g.cs
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_Content.g.cs
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.cache
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.g.resources
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.Properties.Resources.resources
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csproj.GenerateResource.Cache
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.application
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.config
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\recipe_schema.xsd
-C:\Users\Fiae\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csprojResolveAssemblyReference.cache
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.config
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\recipe_schema.xsd
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Recipes.xml
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.application
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.pdb
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.dll
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.pdb
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.xml
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csprojResolveAssemblyReference.cache
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.baml
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.baml
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.g.cs
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.g.cs
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\App.g.cs
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_Content.g.cs
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.cache
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.g.resources
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.Properties.Resources.resources
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csproj.GenerateResource.Cache
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe.manifest
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.application
-C:\Users\Driven\Documents\Visual Studio 2015\Projects\Foodvault\Foodvaultwpf\bin\Debug\Ingredients.xml
-C:\Users\Driven\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.config
-C:\Users\Driven\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
-C:\Users\Driven\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.baml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\NewRec.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\App.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_Content.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.cache
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.config
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\recipe_schema.xsd
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Ingredients.xml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Recipes.xml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe.manifest
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.application
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.exe
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Foodvaultwpf.pdb
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf_MarkupCompile.lref
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\MainWindow.baml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.g.resources
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.Properties.Resources.resources
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csproj.GenerateResource.Cache
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe.manifest
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.application
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.exe
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvaultwpf.pdb
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Lucene.Net.dll
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Lucene.Net.pdb
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Lucene.Net.xml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\SplashWindow.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\SplashWindow.baml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csprojResolveAssemblyReference.cache
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\NewIng.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\NewIng.baml

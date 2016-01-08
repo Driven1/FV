@@ -42,63 +42,87 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Foodvaultwpf.exe" size="2168256">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Foodvaultwpf.exe" size="2252224">
       <assemblyIdentity name="Foodvaultwpf" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uYoXQD2WozKupBGc4zda/KMMvmp4+eLI2v0RE/EQccI=</dsig:DigestValue>
+        <dsig:DigestValue>hXPpFtGxPzofHUXrUGvcUgHH1F9r/lkN9sZy3I5ZR2g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="135168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="134656">
       <assemblyIdentity name="HtmlAgilityPack" version="1.4.9.0" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Mg5oV0AJ3IvhETXLiUXBP1wjpWoHIDglAsbfLVJ+9ic=</dsig:DigestValue>
+        <dsig:DigestValue>XH0MTgrjsVol/leRhjvTnBR0ve6f+u6XugfywnkOGxM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Foodvaultwpf.exe.config" size="176">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="200704">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="0.86.0.518" publicKeyToken="1B03E6ACF1164F73" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QLPVkPlRkfPjPl0A5TT6QPgj2bG7Kpr+BfE5xOCjr40=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lucene.Net.dll" size="753664">
+      <assemblyIdentity name="Lucene.Net" version="3.0.3.0" publicKeyToken="85089178B9AC3181" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0+N051wzOR59WhJ+IaYD8pJB9sOsNbT1dm6hSrSai9o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Foodvaultwpf.exe.config" size="175">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>tEc57v+C2ytXWkW2aIk+L+j90kpwnL8FVHMv01ILIZA=</dsig:DigestValue>
+      <dsig:DigestValue>2iljp2bF0A6B68TK/5W93W94LHGYObh02jDlEs9vLUU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Ingredients.xml" size="389" writeableType="applicationData">
+  <file name="Ingredients.xml" size="525" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>gG4CkxnevPLZ77bsfrTnhH/G7nG/QkiAD40eLAW0ZcI=</dsig:DigestValue>
+      <dsig:DigestValue>IldcqXHF6Z3R7Ldh/fDGwwA1qPfOTe2oAcRaD4Anmnc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="recipe_schema.xsd" size="1400">
+  <file name="recipe_schema.xsd" size="1683">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+I2Q8X2qtoEXv2V2734F+rdg41UY7PcN9Ni5d7UNMIw=</dsig:DigestValue>
+      <dsig:DigestValue>gC9/GqNIVj1zc15QU5qfYXwvW+V7QAjagATgY5IY0So=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Recipes.xml" size="3580" writeableType="applicationData">
+  <file name="Recipes.xml" size="3590" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>cOfIGHhyffIiw3YEovXeMyColRuya3ul1EY+bwJJdR0=</dsig:DigestValue>
+      <dsig:DigestValue>thwNpPAW3Enh5YzdpEORHY3NhBPG+dxJYJxpqtOh0mI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

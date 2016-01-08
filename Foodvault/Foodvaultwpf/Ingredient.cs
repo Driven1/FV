@@ -13,9 +13,11 @@ namespace Foodvaultwpf
         private float Protein;
         private float Fat;
         private float Carbs;
+        public int IngID { get; set;}
 
-        public Ingredient (string na, float cal, float pro, float fa, float ca)
+        public Ingredient (int id, string na, float cal, float pro, float fa, float ca)
         {
+            IngID = id;
             Name = na;
             Calories = cal;
             Protein = pro;

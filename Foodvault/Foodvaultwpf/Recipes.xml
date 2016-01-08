@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Recipes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="recipe_schema.xsd">
-  <Recipe>
+  <Recipe recID="1">
     <Name>Schwarzwälder Kirsch Cupcakes</Name>
     <Calories>300</Calories> <!--kcal-->
     <Time>30</Time> <!-- minutes -->

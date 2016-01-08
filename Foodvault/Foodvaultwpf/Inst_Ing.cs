@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Foodvaultwpf
 {
@@ -15,6 +16,8 @@ namespace Foodvaultwpf
         public float Fat { get; set; }
         public float Carbs { get; set; }
         private string tooltip;
+        public bool NutActive { get; set; }
+        public int ingID { get; set;}
         public string Tooltip
         {
             get
@@ -48,16 +51,31 @@ namespace Foodvaultwpf
         {
             Amount = am;
             Name = na;
+            NutActive = false;
             
+        }
+
+        public Inst_Ing (string am, string na, int id)
+        {
+            Amount = am;
+            Name = na;
+            ingID = id;
+            NutActive = false;
         }
 
         public void setNutritionals (Ingredient ing)
         {
-            Name = ing.name;
             Calories = ing.calories;
             Protein = ing.protein;
             Fat = ing.fat;
             Carbs = ing.carbs;
+            NutActive = true;
+            if (ingID == 0)
+            {
+                ingID = ing.IngID;
+
+
+            }
             
         }
     }

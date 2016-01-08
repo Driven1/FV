@@ -6,25 +6,35 @@ using System.Xml.Linq;
 
 namespace Foodvaultwpf
 {
-    public class RecipeList
+    public static class RecipeList
     {
-        private List<Recipe> recList = new List<Recipe>();
+        private static List<Recipe> recList = new List<Recipe>();
+        public static int recIDCount { get; set;}
 
-        public void FillMyList()
+        public static void LoadRecipes(List<Ingredient> ingInstLis)
         {
             XDocument recXDoc = XDocument.Load("Recipes.xml");  // XML-Dokument lesen
-            recList.Clear();
             foreach (XElement recipe in recXDoc.Descendants("Recipe"))
             {
-                recList.Add(new Recipe(recipe.Element("Name").Value,
+                recList.Add(new Recipe(
+                                        Convert.ToInt32(recipe.Attribute("recID").Value),
+                                        recipe.Element("Name").Value,
                                         recipe.Element("Preparation").Value,
                                         ReadIngs(recipe.Element("Ingredients")),
                                         Convert.ToInt32(recipe.Element("Calories").Value),
                                         Convert.ToInt32(recipe.Element("Time").Value))); // erzeugt für jeden Recipe-Knoten ein objekt der Klasse recipe und fügt es der liste hinzu
+
             }
+            UpdateIngConnections(ingInstLis, recXDoc);
+            
+            recIDCount = recList.MaxObject(item => item.recID).recID;
+        }
+        public static void AddRecipe(Recipe rec)
+        {
+            recList.Add(rec);
         }
 
-        public List<Recipe> SortMyList(ItemCollection source, int index)
+        public static List<Recipe> SortMyList(ItemCollection source, int index)
         {
             List<Recipe> recListSort = new List<Recipe>();
             recListSort.Clear();
@@ -63,9 +73,8 @@ namespace Foodvaultwpf
             return recListSort;
         }
 
-        public List<Recipe> SearchMyList(string searchItem)
+        public static List<Recipe> SearchMyList(string searchItem)
         {
-            FillMyList();
             List<Recipe> recListSearch = new List<Recipe>();
             foreach (Recipe rec in recList)
             {
@@ -77,15 +86,43 @@ namespace Foodvaultwpf
             return recListSearch;
         }
 
-        public List<Inst_Ing> ReadIngs(XElement xe)
+        public static List<Inst_Ing> ReadIngs(XElement xe)
         {
             List<Inst_Ing> inst_List = new List<Inst_Ing>();
             foreach (XElement ing in xe.Descendants("Ingredient"))
             {
-                inst_List.Add(new Inst_Ing(ing.Element("Amount").Value,
-                                           ing.Element("Name").Value));
+                if (ing.Attribute("ingID") != null)
+                {
+                    inst_List.Add(new Inst_Ing(ing.Element("Amount").Value,
+                                               ing.Element("Name").Value,
+                                               Convert.ToInt32(ing.Attribute("ingID").Value)));
+                }
+                else
+                {
+                    inst_List.Add(new Inst_Ing(ing.Element("Amount").Value,
+                                               ing.Element("Name").Value));
+                }
             }
             return inst_List;
+        }
+
+        public static void UpdateIngConnections(List<Ingredient> ingInstLis, XDocument recXDoc)
+        {
+            foreach (Recipe rec in recList)
+            {
+                foreach (Inst_Ing ing in rec.INGS)
+                {
+                    try
+                    {
+                        ing.setNutritionals(IngredientsList.FindIng(ing, ingInstLis));
+                    }
+                    catch
+                    {
+
+                    }
+                }
+                rec.RecUpdate(recXDoc);
+            }
         }
     }
 }

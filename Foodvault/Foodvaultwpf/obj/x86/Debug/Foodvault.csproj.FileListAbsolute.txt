@@ -31,3 +31,6 @@ C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Lucene.Net.pdb
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\bin\Debug\Lucene.Net.xml
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\SplashWindow.g.cs
 C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\SplashWindow.baml
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\Foodvault.csprojResolveAssemblyReference.cache
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\NewIng.g.cs
+C:\Users\Fiae\Source\Repos\FV\Foodvault\Foodvaultwpf\obj\x86\Debug\NewIng.baml

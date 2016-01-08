@@ -22,12 +22,14 @@ namespace Foodvaultwpf
 
         private void recImpWriteBtn_Click(object sender, RoutedEventArgs e)
         {
+            RecipeList.recIDCount++;
             string recImpName = recImpNameTB.Text;
             string recImpPrep = recImpPrepTB.Text;
             XDocument xDocument = XDocument.Load("Recipes.xml");
             XElement root = xDocument.Element("Recipes");
             XElement rec = new XElement("Recipe");
             root.Add(rec);
+            rec.SetAttributeValue("recID", RecipeList.recIDCount.ToString());
             XElement recName = new XElement("Name", recImpName);
             rec.Add(recName);
             XElement recCal = new XElement("Calories", "0");
@@ -57,6 +59,7 @@ namespace Foodvaultwpf
             IEnumerable<XElement> ings = firstRow.Descendants("Ingredients");*/
            
             xDocument.Save("Recipes.xml");
+            RecipeList.AddRecipe(new Recipe(RecipeList.recIDCount, recImpName, recImpPrep, ingsList));
         }
 
         private void recImpNameTB_TextChanged(object sender, TextChangedEventArgs e)

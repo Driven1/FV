@@ -7,14 +7,14 @@ using System.Xml.Linq;
 
 namespace Foodvaultwpf
 {
-    public class IngredientsList
+    public static class IngredientsList
     {
-        private List<Ingredient> ingsList = new List<Ingredient>();
+        public static List<Ingredient> ingsList = new List<Ingredient>();
+        public static int ingIDCount { get; set; }
 
-        public void FillMyList()
+        public static void FillMyList()
         {
             XDocument recXDoc = XDocument.Load("Ingredients.xml");  // XML-Dokument lesen
-            ingsList.Clear();
             foreach (XElement recipe in recXDoc.Descendants("Ingredient"))
             {
                 ingsList.Add(new Ingredient(
@@ -26,19 +26,20 @@ namespace Foodvaultwpf
                                         float.Parse(recipe.Element("Carbs").Value, System.Globalization.CultureInfo.InvariantCulture)
                                         )); // erzeugt für jeden Recipe-Knoten ein objekt der Klasse recipe und fügt es der liste hinzu
             }
+            ingIDCount = ingsList.MaxObject(item => item.IngID).IngID;
             
         }
 
-        public Ingredient FindIng(Inst_Ing ing)
+        public static Ingredient FindIng(Inst_Ing ing, List<Ingredient> ingsInstList)
         {
             if (ing.ingID != 0)
             {
-                Ingredient result = ingsList.Find(item => item.IngID == ing.ingID);
+                Ingredient result = ingsInstList.Find(item => item.IngID == ing.ingID);
                 return result;
             }
             else
             {
-                Ingredient result = ingsList.Find(item => item.name == ing.Name);
+                Ingredient result = ingsInstList.Find(item => item.name == ing.Name);
                 return result;
             }
 

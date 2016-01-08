@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Ingredients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:noNamespaceSchemaLocation="Ingredients.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Ingredients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ingredients.xsd">
   <Ingredient ingID="1">
     <Name>Paprika</Name>
     <Calories>200</Calories>
@@ -14,5 +13,12 @@
     <Protein>32</Protein>
     <Fat>58.8</Fat>
     <Carbs>5</Carbs>
+  </Ingredient>
+  <Ingredient ingID="3">
+    <Name>Backpulver</Name>
+    <Calories>86</Calories>
+    <Protein>0.1</Protein>
+    <Fat>21.4</Fat>
+    <Carbs>0</Carbs>
   </Ingredient>
 </Ingredients>

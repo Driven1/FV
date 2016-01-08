@@ -51,15 +51,14 @@ namespace Foodvaultwpf
             this.Dispatcher.Invoke(showDelegate, "Zutaten werden geladen...");
             Thread.Sleep(2000);
             //load data
-            IngredientsList ingsInstanceList = new IngredientsList();
-            ingsInstanceList.FillMyList();
+            IngredientsList.FillMyList();
             this.Dispatcher.Invoke(hideDelegate);
 
             Thread.Sleep(2000);
             this.Dispatcher.Invoke(showDelegate, "Rezepte werden geladen...");
             Thread.Sleep(2000);
             //load data
-            RecipeList.FillMyList(ingsInstanceList);
+            RecipeList.LoadRecipes(IngredientsList.ingsList);
             this.Dispatcher.Invoke(hideDelegate);
 
 

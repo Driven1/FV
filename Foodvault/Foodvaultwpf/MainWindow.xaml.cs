@@ -8,9 +8,7 @@ namespace Foodvaultwpf
     /// Interaktionslogik für MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
-        private IngredientsList ingsInstanceList = new IngredientsList();
-        
+    { 
 
         public MainWindow()
         {
@@ -64,6 +62,10 @@ namespace Foodvaultwpf
             */
         }
 
-        
+        private void ingSearchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            NewIng newing = new NewIng();
+            newing.Show();
+        }
     }
 }

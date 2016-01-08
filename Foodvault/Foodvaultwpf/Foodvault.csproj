@@ -101,9 +101,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EnumerableExtensions.cs" />
     <Compile Include="Ingredient.cs" />
     <Compile Include="IngredientsList.cs" />
     <Compile Include="Inst_Ing.cs" />
+    <Compile Include="NewIng.xaml.cs">
+      <DependentUpon>NewIng.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecImport.cs" />
     <Compile Include="Recipe.cs" />
     <Compile Include="RecipeList.cs" />
     <Compile Include="RowDetailTempSel.cs" />
@@ -122,6 +127,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="NewIng.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="NewRec.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

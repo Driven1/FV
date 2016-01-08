@@ -9,11 +9,11 @@ namespace Foodvaultwpf
     public static class RecipeList
     {
         private static List<Recipe> recList = new List<Recipe>();
+        public static int recIDCount { get; set;}
 
-        public static void FillMyList(IngredientsList ingInstLis)
+        public static void LoadRecipes(List<Ingredient> ingInstLis)
         {
             XDocument recXDoc = XDocument.Load("Recipes.xml");  // XML-Dokument lesen
-            recList.Clear();
             foreach (XElement recipe in recXDoc.Descendants("Recipe"))
             {
                 recList.Add(new Recipe(
@@ -25,21 +25,13 @@ namespace Foodvaultwpf
                                         Convert.ToInt32(recipe.Element("Time").Value))); // erzeugt für jeden Recipe-Knoten ein objekt der Klasse recipe und fügt es der liste hinzu
 
             }
-            foreach (Recipe rec in recList)
-            {
-                foreach (Inst_Ing ing in rec.INGS)
-                { 
-                    try
-                    {
-                        ing.setNutritionals(ingInstLis.FindIng(ing));
-                    }
-                    catch
-                    {
-
-                    }
-                }
-                rec.RecUpdate(recXDoc);
-            }
+            UpdateIngConnections(ingInstLis, recXDoc);
+            
+            recIDCount = recList.MaxObject(item => item.recID).recID;
+        }
+        public static void AddRecipe(Recipe rec)
+        {
+            recList.Add(rec);
         }
 
         public static List<Recipe> SortMyList(ItemCollection source, int index)
@@ -112,6 +104,25 @@ namespace Foodvaultwpf
                 }
             }
             return inst_List;
+        }
+
+        public static void UpdateIngConnections(List<Ingredient> ingInstLis, XDocument recXDoc)
+        {
+            foreach (Recipe rec in recList)
+            {
+                foreach (Inst_Ing ing in rec.INGS)
+                {
+                    try
+                    {
+                        ing.setNutritionals(IngredientsList.FindIng(ing, ingInstLis));
+                    }
+                    catch
+                    {
+
+                    }
+                }
+                rec.RecUpdate(recXDoc);
+            }
         }
     }
 }

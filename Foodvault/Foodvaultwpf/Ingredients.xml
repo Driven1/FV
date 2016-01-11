@@ -1,18 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Ingredients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Ingredients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
              xsi:noNamespaceSchemaLocation="Ingredients.xsd">
   <Ingredient ingID="1">
-    <Name>Paprika</Name>
-    <Calories>200</Calories>
-    <Protein>32</Protein>
-    <Fat>0.8</Fat>
-    <Carbs>5</Carbs>
+    <Name>Backpulver</Name>
+    <Calories>175</Calories>
+    <Protein>5.2</Protein>
+    <Fat>0</Fat>
+    <Carbs>37.8</Carbs>
   </Ingredient>
   <Ingredient ingID="2">
     <Name>Butter</Name>
-    <Calories>200</Calories>
-    <Protein>32</Protein>
-    <Fat>58.8</Fat>
-    <Carbs>5</Carbs>
+    <Calories>741</Calories>
+    <Protein>0.7</Protein>
+    <Fat>83.2</Fat>
+    <Carbs>0.6</Carbs>
+  </Ingredient>
+  <Ingredient ingID="3">
+    <Name>Salz</Name>
+    <Calories>0</Calories>
+    <Protein>0</Protein>
+    <Fat>0</Fat>
+    <Carbs>0</Carbs>
+  </Ingredient>
+  <Ingredient ingID="4">
+    <Name>Wasser</Name>
+    <Calories>0</Calories>
+    <Protein>0</Protein>
+    <Fat>0</Fat>
+    <Carbs>0</Carbs>
+  </Ingredient>
+  <Ingredient ingID="5">
+    <Name>Milch</Name>
+    <Calories>64</Calories>
+    <Protein>3.3</Protein>
+    <Fat>3.5</Fat>
+    <Carbs>4.7</Carbs>
+  </Ingredient>
+  <Ingredient ingID="6">
+    <Name>Zucker</Name>
+    <Calories>405</Calories>
+    <Protein>0</Protein>
+    <Fat>0</Fat>
+    <Carbs>99.8</Carbs>
   </Ingredient>
 </Ingredients>

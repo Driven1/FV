@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Foodvaultwpf.exe" size="2252224">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Foodvaultwpf.exe" size="2264512">
       <assemblyIdentity name="Foodvaultwpf" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hXPpFtGxPzofHUXrUGvcUgHH1F9r/lkN9sZy3I5ZR2g=</dsig:DigestValue>
+        <dsig:DigestValue>b4xuVYAASk+YGfJxLWI97o3ylAPKDNS6E58SQA5/Epo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,13 +98,13 @@
       <dsig:DigestValue>2iljp2bF0A6B68TK/5W93W94LHGYObh02jDlEs9vLUU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Ingredients.xml" size="525" writeableType="applicationData">
+  <file name="Ingredients.xml" size="1190" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>IldcqXHF6Z3R7Ldh/fDGwwA1qPfOTe2oAcRaD4Anmnc=</dsig:DigestValue>
+      <dsig:DigestValue>E1sh9OYDSggdlI48xoTd2URXUTjwStgCMFlvOucaZ/M=</dsig:DigestValue>
     </hash>
   </file>
   <file name="recipe_schema.xsd" size="1683">
@@ -116,13 +116,13 @@
       <dsig:DigestValue>gC9/GqNIVj1zc15QU5qfYXwvW+V7QAjagATgY5IY0So=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Recipes.xml" size="3590" writeableType="applicationData">
+  <file name="Recipes.xml" size="12675" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>thwNpPAW3Enh5YzdpEORHY3NhBPG+dxJYJxpqtOh0mI=</dsig:DigestValue>
+      <dsig:DigestValue>mMcuMEnzPOUaoCotqw0UhATgYyLsjmUd8QlpOkHwrVs=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

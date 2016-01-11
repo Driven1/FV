@@ -173,6 +173,7 @@
     </None>
     <AppDesigner Include="Properties\" />
     <Resource Include="Media\F14_grub.png" />
+    <Resource Include="Media\FV_icon.jpg" />
     <Content Include="recipe_schema.xsd">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

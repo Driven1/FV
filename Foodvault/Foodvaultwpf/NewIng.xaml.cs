@@ -48,10 +48,10 @@ namespace Foodvaultwpf
             xDocument.Save("Ingredients.xml");
             IngredientsList.ingsList.Add(new Ingredient(IngredientsList.ingIDCount, 
                                                         ingImpNameTB.Text, 
-                                                        float.Parse(ingImpCalTB.Text, System.Globalization.CultureInfo.InvariantCulture), 
-                                                        float.Parse(ingImpProtTB.Text, System.Globalization.CultureInfo.InvariantCulture), 
-                                                        float.Parse(ingImpFatTB.Text, System.Globalization.CultureInfo.InvariantCulture), 
-                                                        float.Parse(ingImpCarbTB.Text, System.Globalization.CultureInfo.InvariantCulture)));
+                                                        float.Parse(ingImpCalTB.Text.Replace(",","."), System.Globalization.CultureInfo.InvariantCulture), 
+                                                        float.Parse(ingImpProtTB.Text.Replace(",", "."), System.Globalization.CultureInfo.InvariantCulture), 
+                                                        float.Parse(ingImpFatTB.Text.Replace(",", "."), System.Globalization.CultureInfo.InvariantCulture), 
+                                                        float.Parse(ingImpCarbTB.Text.Replace(",", "."), System.Globalization.CultureInfo.InvariantCulture)));
 
             RecipeList.UpdateIngConnections(IngredientsList.ingsList, XDocument.Load("Recipes.xml"));
             this.Close();

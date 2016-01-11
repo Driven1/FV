@@ -59,7 +59,10 @@ namespace Foodvaultwpf
             IEnumerable<XElement> ings = firstRow.Descendants("Ingredients");*/
            
             xDocument.Save("Recipes.xml");
-            RecipeList.AddRecipe(new Recipe(RecipeList.recIDCount, recImpName, recImpPrep, ingsList));
+            Recipe newRec = new Recipe(RecipeList.recIDCount, recImpName, recImpPrep, ingsList);
+            RecipeList.AddRecipe(newRec);
+            RecipeList.UpdateIngConnections(IngredientsList.ingsList, xDocument, newRec);
+            this.Close();
         }
 
         private void recImpNameTB_TextChanged(object sender, TextChangedEventArgs e)

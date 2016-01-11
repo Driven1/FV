@@ -46,22 +46,11 @@ namespace Foodvaultwpf
             }
             XElement recPrep = new XElement("Preparation", recImpPrep);
             rec.Add(recPrep);
-            
+            xDocument.Save("Recipes.xml"); //erzeugt neuen XML-Eintrag für das Rezept und schreibt diesen in die Rezeptdatei
 
-            /*XElement firstRow = rows.First();
-            firstRow.AddBeforeSelf(
-               new XElement("Recipe",
-                   new XElement("Name", recImpName),
-                   new XElement("Calories", "0"),
-                   new XElement("Time", "0"),
-                   new XElement("Ingredients"),
-                   new XElement("Preparation", recImpPrep)));
-            IEnumerable<XElement> ings = firstRow.Descendants("Ingredients");*/
-           
-            xDocument.Save("Recipes.xml");
             Recipe newRec = new Recipe(RecipeList.recIDCount, recImpName, recImpPrep, ingsList);
             RecipeList.AddRecipe(newRec);
-            RecipeList.UpdateIngConnections(IngredientsList.ingsList, xDocument, newRec);
+            RecipeList.UpdateIngConnections(IngredientsList.ingsList, xDocument, newRec); //erzeugt neues Recipe-Objekt und fügt es der Liste hinzu
             this.Close();
         }
 
@@ -79,12 +68,7 @@ namespace Foodvaultwpf
                     {
                         string recImpUri = recImpUriBox.Text;
                         HtmlWeb recImpSite = new HtmlWeb();
-                        HtmlDocument doc = recImpSite.Load(recImpUri);
-                        /*doc.DocumentNode.Descendants()
-                                        .Where(n => n.Name == "script" || n.Name == "style" || n.Name == "img")
-                                        .ToList()
-                                        .ForEach(n => n.Remove());*/
-                        // var node = doc.DocumentNode.SelectSingleNode("//body/div[@id='wrapper']/div[@id='page-wrapper']/div[@id='page']//div[@id='rezept-zubereitung' and @class='instructions']");
+                        HtmlDocument doc = recImpSite.Load(recImpUri); 
                         var nodeRecName = doc.DocumentNode.SelectSingleNode("//h1[@class='page-title fn']");
                         if (nodeRecName != null)
                         {

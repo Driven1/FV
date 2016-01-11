@@ -63,7 +63,7 @@ namespace Foodvaultwpf
             NutActive = false;
         }
 
-        public void setNutritionals (Ingredient ing)
+        public void setNutritionals (Ingredient ing) //kopiert die Nährwerte der angegebenen Zutat in die Rezeptzutat und markiert diese als gefüllt, damit der TemplateSelector anspringt.
         {
             Calories = ing.calories;
             Protein = ing.protein;

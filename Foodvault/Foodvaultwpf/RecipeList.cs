@@ -73,7 +73,7 @@ namespace Foodvaultwpf
             return recListSort;
         }
 
-        public static List<Recipe> SearchMyList(string searchItem)
+        public static List<Recipe> SearchMyList(string searchItem)  // Rezeptsuche
         {
             List<Recipe> recListSearch = new List<Recipe>();
             foreach (Recipe rec in recList)
@@ -86,7 +86,7 @@ namespace Foodvaultwpf
             return recListSearch;
         }
 
-        public static List<Inst_Ing> ReadIngs(XElement xe)
+        public static List<Inst_Ing> ReadIngs(XElement xe) // liest die einzelnen Ingredient-Knoten in einem xml-rezept und erzeugt für jeden knoten eine Rezeptzutat
         {
             List<Inst_Ing> inst_List = new List<Inst_Ing>();
             foreach (XElement ing in xe.Descendants("Ingredient"))
@@ -106,7 +106,7 @@ namespace Foodvaultwpf
             return inst_List;
         }
 
-        public static void UpdateIngConnections(List<Ingredient> ingInstLis, XDocument recXDoc)
+        public static void UpdateIngConnections(List<Ingredient> ingInstLis, XDocument recXDoc) //geht die gesamte Rezeptliste durch und vergleicht die Rezeptzutaten mit der angegebenen Zutatenliste und ergänzt fehlende Verbindungen
         {
             foreach (Recipe rec in recList)
             {
@@ -129,7 +129,7 @@ namespace Foodvaultwpf
             }
         }
 
-        public static void UpdateIngConnections(List<Ingredient> ingInstLis, XDocument recXDoc, Recipe rec)
+        public static void UpdateIngConnections(List<Ingredient> ingInstLis, XDocument recXDoc, Recipe rec) // gleiches spiel wie oben, aber nur für das angegebene Rezept statt der gesamten Liste
         {
             foreach (Inst_Ing ing in rec.INGS)
             {

@@ -8,7 +8,7 @@ namespace Foodvaultwpf
 {
     static class EnumerableExtensions
     {
-        public static T MaxObject<T, U>(this IEnumerable<T> source, Func<T, U> selector)
+        public static T MaxObject<T, U>(this IEnumerable<T> source, Func<T, U> selector)      //Funktion um in einer Collection das Objekt mit dem höchsten Wert in der angegebenen Eigenschaft zu finden
           where U : IComparable<U>
         {
             if (source == null) throw new ArgumentNullException("source");

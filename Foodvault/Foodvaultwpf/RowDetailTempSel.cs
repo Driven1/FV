@@ -8,7 +8,7 @@ using System.Windows;
 
 namespace TemplateSelectors
 {
-    class CustomRowDetailTemplateSelector : DataTemplateSelector
+    class CustomRowDetailTemplateSelector : DataTemplateSelector  // wählt basierend auf flag das richtige Detailtemplate für die ausgewählte gridrow aus
     {
         public override DataTemplate SelectTemplate(object item, DependencyObject container)
         {

@@ -44,8 +44,8 @@ namespace Foodvaultwpf
             ing.Add(ingFat);
             XElement ingCarbs = new XElement("Carbs", ingImpCarbTB.Text);
             ing.Add(ingCarbs);
+            xDocument.Save("Ingredients.xml"); // erzeugt XML-Eintrag für die Zutat mit den eingetragenen Werten
 
-            xDocument.Save("Ingredients.xml");
             IngredientsList.ingsList.Add(new Ingredient(IngredientsList.ingIDCount, 
                                                         ingImpNameTB.Text, 
                                                         float.Parse(ingImpCalTB.Text.Replace(",","."), System.Globalization.CultureInfo.InvariantCulture), 
@@ -53,7 +53,7 @@ namespace Foodvaultwpf
                                                         float.Parse(ingImpFatTB.Text.Replace(",", "."), System.Globalization.CultureInfo.InvariantCulture), 
                                                         float.Parse(ingImpCarbTB.Text.Replace(",", "."), System.Globalization.CultureInfo.InvariantCulture)));
 
-            RecipeList.UpdateIngConnections(IngredientsList.ingsList, XDocument.Load("Recipes.xml"));
+            RecipeList.UpdateIngConnections(IngredientsList.ingsList, XDocument.Load("Recipes.xml"));   // erstellt neues Ingredient-Objekt, fügt es der Liste hinzu und führt den Zutatenabgleich durch
             this.Close();
         }
     }

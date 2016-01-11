@@ -122,7 +122,7 @@ namespace Foodvaultwpf
             recID = recid;
         }
 
-        public void RecUpdate(XDocument xmlFile)
+        public void RecUpdate(XDocument xmlFile) // Funktion zum ergänzen der zutaten-ids in Rezepten
         {
             foreach (Inst_Ing ing in INGS)
             {

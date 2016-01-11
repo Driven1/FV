@@ -54,12 +54,7 @@ namespace Foodvaultwpf
 
         private void recIngDGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           /* DataRowView row = (DataRowView)recIngDGrid.SelectedItems;
-            int index = recIngDGrid.CurrentCell.Column.DisplayIndex;
-            {
-                (Inst_Ing)recIngDGrid.SelectedItem.setNutritionals(ingsInstanceList.FindIng(row.Row.ItemArray[index].ToString()));
-            }
-            */
+           
         }
 
         private void ingSearchBtn_Click(object sender, RoutedEventArgs e)

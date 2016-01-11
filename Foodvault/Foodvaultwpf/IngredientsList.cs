@@ -24,17 +24,17 @@ namespace Foodvaultwpf
                                         float.Parse(recipe.Element("Protein").Value, System.Globalization.CultureInfo.InvariantCulture),
                                         float.Parse(recipe.Element("Fat").Value, System.Globalization.CultureInfo.InvariantCulture),
                                         float.Parse(recipe.Element("Carbs").Value, System.Globalization.CultureInfo.InvariantCulture)
-                                        )); // erzeugt für jeden Recipe-Knoten ein objekt der Klasse recipe und fügt es der liste hinzu
+                                        )); // erzeugt für jeden Ingredient-Knoten ein objekt der Klasse Ingredient und fügt es der liste hinzu
             }
-            ingIDCount = ingsList.MaxObject(item => item.IngID).IngID; 
+            ingIDCount = ingsList.MaxObject(item => item.IngID).IngID; // setzt den id-zähler auf den höchsten Wert, der unter allen Objekten in der Liste bereits vorhanden ist
             
         }
 
-        public static Ingredient FindIng(Inst_Ing ing, List<Ingredient> ingsInstList)
+        public static Ingredient FindIng(Inst_Ing ing, List<Ingredient> ingsInstList) // sucht in der angegebenen Liste eine Zutat, deren ID oder Name übereinstimmen mit der angegebenen Rezeptzutat
         {
             if (ing.ingID != 0)
             {
-                Ingredient result = ingsInstList.Find(item => item.IngID == ing.ingID);
+                Ingredient result = ingsInstList.Find(item => item.IngID == ing.ingID); 
                 return result;
             }
             else

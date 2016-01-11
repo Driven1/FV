@@ -26,7 +26,7 @@ namespace Foodvaultwpf
                                         float.Parse(recipe.Element("Carbs").Value, System.Globalization.CultureInfo.InvariantCulture)
                                         )); // erzeugt für jeden Recipe-Knoten ein objekt der Klasse recipe und fügt es der liste hinzu
             }
-            ingIDCount = ingsList.MaxObject(item => item.IngID).IngID;
+            ingIDCount = ingsList.MaxObject(item => item.IngID).IngID; 
             
         }
 

@@ -1,91 +1,304 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Recipes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="recipe_schema.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recipes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe_schema.xsd">
   <Recipe recID="1">
     <Name>Schwarzwälder Kirsch Cupcakes</Name>
-    <Calories>300</Calories> <!--kcal-->
-    <Time>30</Time> <!-- minutes -->
-	  <Ingredients>
-      <Ingredient>
+    <Calories>300</Calories>
+    <!--kcal-->
+    <Time>30</Time>
+    <!-- minutes -->
+    <Ingredients>
+      <Ingredient ingID="2">
         <Amount>100 g</Amount>
         <Name>Butter</Name>
       </Ingredient>
-	    <Ingredient>
+      <Ingredient ingID="0">
         <Amount>50 g</Amount>
         <Name>Schokolade, (Zartbitterschokolade), gehackt</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>130 g</Amount>
         <Name>Zucker, brauner</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>2</Amount>
         <Name>Ei(er)</Name>
-      </Ingredient>  	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>1 TL</Amount>
         <Name>Backpulver</Name>
       </Ingredient>
-	    <Ingredient>
+      <Ingredient ingID="3">
         <Amount>1 Prise(n)</Amount>
         <Name>Salz</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>180 g</Amount>
         <Name>Mehl</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>3 EL</Amount>
         <Name>Kakaopulver</Name>
       </Ingredient>
-	    <Ingredient>
+      <Ingredient ingID="5">
         <Amount>100 ml</Amount>
         <Name>Milch</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>1/2 Glas</Amount>
         <Name>Schattenmorellen</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>2 EL</Amount>
         <Name>Speisestärke</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>1 EL</Amount>
         <Name>Kirschwasser</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>400 ml</Amount>
         <Name>Schlagsahne</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>1 Pck.</Amount>
         <Name>Sahnesteif</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>1 Pck.</Amount>
         <Name>Vanillezucker</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>2 EL</Amount>
         <Name>Schokoladenraspel</Name>
-      </Ingredient> 	
-	    <Ingredient>
+      </Ingredient>
+      <Ingredient ingID="0">
         <Amount>12 Stück(e)</Amount>
         <Name>Papierförmchen für Muffins</Name>
-      </Ingredient> 	
-	  </Ingredients>
-	  <Preparation>
-	    Den Backofen auf 180°C (Ober-/ Unterhitze) vorheizen und eine 12er Muffinform mit Papierförmchen bestücken. Die Butter mit der gehackten Zartbitterschokolade in der Mikrowelle oder im Wasserbad schmelzen. Beiseite stellen und abkühlen lassen.
+      </Ingredient>
+    </Ingredients>
+    <Preparation>
+      Den Backofen auf 180°C (Ober-/ Unterhitze) vorheizen und eine 12er Muffinform mit Papierförmchen bestücken. Die Butter mit der gehackten Zartbitterschokolade in der Mikrowelle oder im Wasserbad schmelzen. Beiseite stellen und abkühlen lassen.
 
-	    Die abgekühlte Schokobutter mit dem Zucker schaumig schlagen und die Eier einzeln unterrühren. Das Mehl mit dem Backpulver, Salz und Kakaopulver mischen, über die Eiermasse sieben und mit der Milch unterrühren. Den Teig in die Förmchen geben und etwa 20 Minuten bei 180°C backen.
+      Die abgekühlte Schokobutter mit dem Zucker schaumig schlagen und die Eier einzeln unterrühren. Das Mehl mit dem Backpulver, Salz und Kakaopulver mischen, über die Eiermasse sieben und mit der Milch unterrühren. Den Teig in die Förmchen geben und etwa 20 Minuten bei 180°C backen.
 
-	    Die fertigen Schokoküchlein auskühlen lassen und anschließend mit einem Apfelausstecher oder einem Teelöffel einen Keil herauslösen.
+      Die fertigen Schokoküchlein auskühlen lassen und anschließend mit einem Apfelausstecher oder einem Teelöffel einen Keil herauslösen.
 
-	    Für die Kirschfüllung ca. 150 ml Saft aus dem Kirschglas mit 2 EL Speisestärke in einem Messbecher glatt rühren. Die Hälfte der Kirschen mit etwas Saft in einen kleinen Topf geben und erhitzen. Die angerührte Speisestärke unter Rühren dazugeben. Weiter rühren, bis die Flüssigkeit bindet. Zum Schluss das Schwarzwälder Kirschwasser unterrühren. Nun die Kirschmasse in die Aushöhlungen der Schokoküchlein füllen.
+      Für die Kirschfüllung ca. 150 ml Saft aus dem Kirschglas mit 2 EL Speisestärke in einem Messbecher glatt rühren. Die Hälfte der Kirschen mit etwas Saft in einen kleinen Topf geben und erhitzen. Die angerührte Speisestärke unter Rühren dazugeben. Weiter rühren, bis die Flüssigkeit bindet. Zum Schluss das Schwarzwälder Kirschwasser unterrühren. Nun die Kirschmasse in die Aushöhlungen der Schokoküchlein füllen.
 
-	    Die kalte Sahne mit Sahnesteif und Vanillezucker steif schlagen, auf die Schokoküchlein spritzen und jedes mit einer Kirsche und Schokoraspeln verzieren.
-	  </Preparation>
+      Die kalte Sahne mit Sahnesteif und Vanillezucker steif schlagen, auf die Schokoküchlein spritzen und jedes mit einer Kirsche und Schokoraspeln verzieren.
+    </Preparation>
   </Recipe>
-  
+  <Recipe recID="2">
+    <Name>Zimtschnecken 'Cinnabon Style'</Name>
+    <Calories>0</Calories>
+    <Time>0</Time>
+    <Ingredients>
+      <Ingredient ingID="0">
+        <Amount></Amount>
+        <Name>Für den Teig:</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>2 Pck.</Amount>
+        <Name>Puddingpulver, (Vanillepuddingpulver)</Name>
+      </Ingredient>
+      <Ingredient ingID="4">
+        <Amount>100 ml</Amount>
+        <Name>Wasser</Name>
+      </Ingredient>
+      <Ingredient ingID="5">
+        <Amount>500 ml</Amount>
+        <Name>Milch</Name>
+      </Ingredient>
+      <Ingredient ingID="6">
+        <Amount>5 EL</Amount>
+        <Name>Zucker</Name>
+      </Ingredient>
+      <Ingredient ingID="2">
+        <Amount>120 g</Amount>
+        <Name>Butter</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>2 Pkt.</Amount>
+        <Name>Trockenhefe</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>2 </Amount>
+        <Name>Ei(er)</Name>
+      </Ingredient>
+      <Ingredient ingID="3">
+        <Amount>1 TL</Amount>
+        <Name>Salz</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>800 g</Amount>
+        <Name>Mehl</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount></Amount>
+        <Name>Außerdem: (zum Bestreichen)</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>200 g</Amount>
+        <Name>Butter, flüssig</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>300 g</Amount>
+        <Name>Zucker, brauner</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>5 TL</Amount>
+        <Name>Zimtpulver</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount></Amount>
+        <Name>Für das Frosting:</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>250 g</Amount>
+        <Name>Puderzucker</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>250 g</Amount>
+        <Name>Frischkäse</Name>
+      </Ingredient>
+      <Ingredient ingID="2">
+        <Amount>120 g</Amount>
+        <Name>Butter</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>2 Pck.</Amount>
+        <Name>Vanillinzucker</Name>
+      </Ingredient>
+    </Ingredients>
+    <Preparation>
+      Milch aufkochen, Puddingpulver mit kaltem Wasser verrühren und in die kochende Milch einrühren, kurz kochen lassen bis der Pudding eingedickt ist, dabei ständig rühren. Vom Herd nehmen, Butter einrühren bis sie geschmolzen ist, Zucker und Eier einrühren. Wenn die Masse noch handwarm ist, die Trockenhefe unterrühren. Salz und Mehl vermischen, Puddingmasse hinzugeben und zu einem weichen, leicht klebrigen Teig verarbeiten (geht am besten mit den Knethaken eines Mixers, der Teig sollte auf jeden Fall feuchter als „normaler“ Hefeteig sein). Gehen lassen bis der Teig sich verdoppelt hat (1-2 Stunden).
+
+      Den Teig halbieren und auf einer gut bemehlten Fläche auswalken, mit der Hälfte der flüssigen Butter bestreichen, und jeweils der Hälfte von Zimt und braunem Zucker bestreuen. Eng aufwickeln und in ca. 4cm breite Stücke schneiden. Mit dem restlichen Teig gleich verfahren. Die Zimtschnecken mit Abstand zueinander (am besten seitlich versetzt) auf ein mit Backpapier ausgelegtes Blech geben und nochmals 30 Min. gehen lassen. Es ist wichtig, dass sie nicht zu dicht aneinander stehen, sich aber dennoch nach dem letzten Gehen ganz leicht berühren. Bei 200° ca. 20 Min. backen, nicht zu dunkel werden lassen.
+
+      Für das Frosting alle Zutaten zu einer cremigen Masse rühren und über die noch warmen Zimtschnecken streichen.
+
+      Dieses Rezept ist den amerikanischen „Cinnabon Rolls“ nachempfunden und ergibt ca. 25 Zimtschnecken. Diese sind höher und weicher als deutsche Zimtschnecken. Auch ähneln sie eher einem Schneckenkuchen, von dem die einzelnen Schnecken dann abgetrennt werden.
+    </Preparation>
+  </Recipe>
+  <Recipe recID="3">
+    <Name>Apfelkuchen mit Streuseln</Name>
+    <Calories>0</Calories>
+    <Time>0</Time>
+    <Ingredients>
+      <Ingredient ingID="0">
+        <Amount></Amount>
+        <Name>Für den Teig:</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>125 g</Amount>
+        <Name>Butter, weiche</Name>
+      </Ingredient>
+      <Ingredient ingID="6">
+        <Amount>150 g</Amount>
+        <Name>Zucker</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>1 Pck.</Amount>
+        <Name>Vanillezucker</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>4 m.-große</Amount>
+        <Name>Ei(er)</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>250 g</Amount>
+        <Name>Mehl</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>1/2 Pck.</Amount>
+        <Name>Backpulver</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount></Amount>
+        <Name>Für den Belag:</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>1 1/2 kg</Amount>
+        <Name>Äpfel</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount></Amount>
+        <Name>Für die Streusel:</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>150 g</Amount>
+        <Name>Butter, weiche</Name>
+      </Ingredient>
+      <Ingredient ingID="6">
+        <Amount>200 g</Amount>
+        <Name>Zucker</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>1 Pck.</Amount>
+        <Name>Vanillezucker</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>250 g</Amount>
+        <Name>Mehl</Name>
+      </Ingredient>
+    </Ingredients>
+    <Preparation>
+      Butter, Zucker und Vanillezucker schaumig schlagen, nach und nach die Eier unterrühren.
+      Zum Schluss kommt eine Mischung aus Mehl und Backpulver dazu.
+
+      Den Teig auf einem gefetteten Backblech verteilen. Die Äpfel vierteln und das Kerngehäuse entfernen. Jedes Apfelviertel mit einem kleinen Messer 3-4x einschneiden, aber nicht durch, dann den Teig dicht mit den Äpfeln belegen.
+
+      Der Streuselteig besteht aus Butter, Zucker, Vanillezucker und Mehl. Alles miteinander verkneten und in grobe Brösel zupfen und gleichmäßig auf den Früchten verteilen.
+
+      Nun wird der Apfelkuchen im vor geheizten Ofen bei 175 Grad O/U auf der 2.Schiene von unten etwa 45 Minuten gebacken.
+    </Preparation>
+  </Recipe>
+  <Recipe recID="4">
+    <Name>Chocolate - Lava - Muffins</Name>
+    <Calories>0</Calories>
+    <Time>0</Time>
+    <Ingredients>
+      <Ingredient ingID="0">
+        <Amount>225 g</Amount>
+        <Name>Schokolade, zartbitter, am besten 60%-ige</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>115 g</Amount>
+        <Name>Butter, weich</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>1 TL</Amount>
+        <Name>Vanillezucker</Name>
+      </Ingredient>
+      <Ingredient ingID="6">
+        <Amount>100 g</Amount>
+        <Name>Zucker</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>35 g</Amount>
+        <Name>Mehl</Name>
+      </Ingredient>
+      <Ingredient ingID="3">
+        <Amount>1 Prise(n)</Amount>
+        <Name>Salz</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>4 </Amount>
+        <Name>Ei(er)</Name>
+      </Ingredient>
+      <Ingredient ingID="0">
+        <Amount>2 EL</Amount>
+        <Name>Kakaopulver, ungesüßt</Name>
+      </Ingredient>
+    </Ingredients>
+    <Preparation>
+      Schokolade und Butter über dem Wasserbad schmelzen. In der Zwischenzeit Vanillezucker, Zucker, Salz und Mehl mischen. Ein Ei nach dem anderen unter die trockenen Zutaten rühren, bis ein glatter Teig entsteht. Die leicht abgekühlte, flüssige Schokolade hinzugeben, unterrühren und mit einem Rührgerät auf der höchsten Stufe ca. 4 Minuten lang dick und cremig schlagen.
+
+      Die Mulden eines Muffinblechs gut einfetten und mit Kakaopulver ausstreuen, am besten geht das mit einem kleinen Sieb.
+
+      Die Muffinmulden zu ca. 2/3 mit dem Teig befüllen und bei 190°C Ober-/ Unterhitze 10-11 Minuten backen. Außen soll der Muffin kuchenartig sein, innen jedoch noch flüssig bis sehr weich und saftig. Die Muffins im Muffinblech ein wenig auskühlen lassen, dann vorsichtig lösen. Am besten schmecken sie, solange sie noch warm sind. Kalt schmecken sie immer noch sehr gut, der Kern ist dann jedoch nicht mehr ganz so flüssig.
+
+      Die Menge ergibt ca. 12 Stück, eignet sich toll als Dessert, z.B. mit Puderzucker oder Kakaopulver bestäubt. Dazu serviere ich gern Schlagsahne oder Vanilleeis und frische Früchte.
+    </Preparation>
+  </Recipe>
 </Recipes>

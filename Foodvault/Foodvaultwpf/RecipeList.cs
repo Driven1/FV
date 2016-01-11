@@ -112,17 +112,41 @@ namespace Foodvaultwpf
             {
                 foreach (Inst_Ing ing in rec.INGS)
                 {
+                    Ingredient result = IngredientsList.FindIng(ing, ingInstLis);
+                    if (result != null)
+                    {
+                        try
+                        {
+                            ing.setNutritionals(result);
+                        }
+                        catch
+                        {
+
+                        }
+                    }
+                }
+                rec.RecUpdate(recXDoc);
+            }
+        }
+
+        public static void UpdateIngConnections(List<Ingredient> ingInstLis, XDocument recXDoc, Recipe rec)
+        {
+            foreach (Inst_Ing ing in rec.INGS)
+            {
+                Ingredient result = IngredientsList.FindIng(ing, ingInstLis);
+                if (result != null)
+                {
                     try
                     {
-                        ing.setNutritionals(IngredientsList.FindIng(ing, ingInstLis));
+                        ing.setNutritionals(result);
                     }
                     catch
                     {
 
                     }
                 }
-                rec.RecUpdate(recXDoc);
             }
+            rec.RecUpdate(recXDoc);
         }
     }
 }

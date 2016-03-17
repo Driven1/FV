@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Foodvaultwpf.exe" size="2264512">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Foodvaultwpf.exe" size="2265024">
       <assemblyIdentity name="Foodvaultwpf" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>b4xuVYAASk+YGfJxLWI97o3ylAPKDNS6E58SQA5/Epo=</dsig:DigestValue>
+        <dsig:DigestValue>QgQRnklyVbDqqwIMNDk3UFcqqengDdEdATIEpQopyiI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Foodvaultwpf"
         mc:Ignorable="d"
-        Title="NewIng" Height="200" Width="300" WindowStyle="None" Background="Transparent" AllowsTransparency="True" Topmost="True">
+        Title="NewIng" SizeToContent="Width" Height="200" WindowStyle="None" Background="Transparent" AllowsTransparency="True" Topmost="True">
     <Border CornerRadius="20">
         <Border.Background>
             <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
@@ -15,19 +15,28 @@
         </Border.Background>
         <Grid>
             <Label x:Name="label" HorizontalAlignment="Left" Height="27" Margin="0,59,0,0" VerticalAlignment="Top" Width="55"/>
-            <TextBox x:Name="ingImpNameTB" HorizontalAlignment="Left" Height="23" Margin="60,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
-            <TextBox x:Name="ingImpProtTB" HorizontalAlignment="Left" Height="23" Margin="60,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
-            <TextBox x:Name="ingImpCalTB" HorizontalAlignment="Left" Height="23" Margin="60,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
-            <TextBox x:Name="ingImpFatTB" HorizontalAlignment="Left" Height="23" Margin="60,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
-            <TextBox x:Name="ingImpCarbTB" HorizontalAlignment="Left" Height="23" Margin="60,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+            <TextBox x:Name="ingImpNameTB" HorizontalAlignment="Left" Height="23" Margin="60,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+            <TextBox x:Name="ingImpProtTB" HorizontalAlignment="Left" Height="23" Margin="112,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+            <TextBox x:Name="ingImpCalTB" HorizontalAlignment="Left" Height="23" Margin="112,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+            <TextBox x:Name="ingImpFatTB" HorizontalAlignment="Left" Height="23" Margin="112,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+            <TextBox x:Name="ingImpCarbTB" HorizontalAlignment="Left" Height="23" Margin="112,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
             <Label x:Name="label_Copy" Content="Kalorien" HorizontalAlignment="Left" Height="27" Margin="5,49,0,0" VerticalAlignment="Top" Width="55"/>
             <Label x:Name="label_Copy1" Content="Name" HorizontalAlignment="Left" Height="27" Margin="10,10,0,0" VerticalAlignment="Top" Width="50"/>
             <Label x:Name="label_Copy2" Content="Eiweiss" HorizontalAlignment="Left" Height="27" Margin="5,76,0,0" VerticalAlignment="Top" Width="50"/>
             <Label x:Name="label_Copy3" Content="Fett" HorizontalAlignment="Left" Height="27" Margin="10,103,0,0" VerticalAlignment="Top" Width="50"/>
-            <Label x:Name="label_Copy4" Content="Kohlenhydrate" HorizontalAlignment="Left" Height="27" Margin="5,130,0,0" VerticalAlignment="Top" Width="50"/>
-            <Label x:Name="label1" Content="Nährwerte pro 100g:" HorizontalAlignment="Left" Margin="80,25,0,0" VerticalAlignment="Top" Width="122" Height="30"/>
-            <Button x:Name="ingImpBtn" Content="speichern" HorizontalAlignment="Left" Margin="101,168,0,0" VerticalAlignment="Top" Width="75" Click="ingImpBtn_Click"/>
+            <Label x:Name="label_Copy4" Content="Kohlenhydrate" HorizontalAlignment="Left" Height="27" Margin="5,130,0,0" VerticalAlignment="Top" Width="90"/>
+            <Label x:Name="label1" Content="Nährwerte pro 100g:" Margin="109,25,69,147"/>
+            <Button x:Name="ingImpBtn" Content="speichern" HorizontalAlignment="Left" Margin="42,168,0,0" VerticalAlignment="Top" Width="75" Click="ingImpBtn_Click"/>
+            <Button x:Name="button" Content="Schließen" HorizontalAlignment="Left" Height="22" Margin="141,168,0,0" VerticalAlignment="Top" Width="80" Click="button_Click"/>
+            <Expander x:Name="expander" Header="" HorizontalAlignment="Left" Margin="233,10,0,0" VerticalAlignment="Top" ExpandDirection="Right" Height="180" Width="auto" IsExpanded="True">
 
+                <StackPanel Height="170" VerticalAlignment="Top" Width="128">
+                    <TextBox x:Name="ingSearchTB" Height="20" Width="100" Margin="0,5,5,0"></TextBox>
+                    <ListBox x:Name="ingSearchLB" Height="130" Width="100" Margin="0,5,5,5"></ListBox>
+
+
+                </StackPanel>
+            </Expander>
 
         </Grid>
     </Border>

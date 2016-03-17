@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Ingredients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ingredients.xsd">
+<Ingredients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xsi:noNamespaceSchemaLocation="Ingredients.xsd">
   <Ingredient ingID="1">
     <Name>Backpulver</Name>
     <Calories>175</Calories>
@@ -41,12 +42,5 @@
     <Protein>0</Protein>
     <Fat>0</Fat>
     <Carbs>99.8</Carbs>
-  </Ingredient>
-  <Ingredient ingID="7">
-    <Name>Mehl</Name>
-    <Calories>341 </Calories>
-    <Protein>10</Protein>
-    <Fat>1</Fat>
-    <Carbs>71</Carbs>
   </Ingredient>
 </Ingredients>

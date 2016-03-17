@@ -24,6 +24,7 @@ namespace Foodvaultwpf
         public NewIng()
         {
             InitializeComponent();
+            MouseLeftButtonDown += delegate { DragMove(); };
         }
 
         private void ingImpBtn_Click(object sender, RoutedEventArgs e)
@@ -54,6 +55,11 @@ namespace Foodvaultwpf
                                                         float.Parse(ingImpCarbTB.Text.Replace(",", "."), System.Globalization.CultureInfo.InvariantCulture)));
 
             RecipeList.UpdateIngConnections(IngredientsList.ingsList, XDocument.Load("Recipes.xml"));   // erstellt neues Ingredient-Objekt, fügt es der Liste hinzu und führt den Zutatenabgleich durch
+            this.Close();
+        }
+        //((MainWindow)Application.Current.MainWindow)
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
             this.Close();
         }
     }

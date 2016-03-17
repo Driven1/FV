@@ -72,8 +72,7 @@ namespace Foodvaultwpf
 
             //close the window
             Thread.Sleep(2000);
-            this.Dispatcher.Invoke(DispatcherPriority.Normal,
-(Action)delegate () { Close(); });
+            this.Dispatcher.Invoke(DispatcherPriority.Normal, (Action)delegate () { Close(); });
         }
         private void showText(string txt)
         {

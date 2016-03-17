@@ -31,7 +31,7 @@
         <Amount>1 Prise(n)</Amount>
         <Name>Salz</Name>
       </Ingredient>
-      <Ingredient ingID="7">
+      <Ingredient ingID="0">
         <Amount>180 g</Amount>
         <Name>Mehl</Name>
       </Ingredient>
@@ -129,7 +129,7 @@
         <Amount>1 TL</Amount>
         <Name>Salz</Name>
       </Ingredient>
-      <Ingredient ingID="7">
+      <Ingredient ingID="0">
         <Amount>800 g</Amount>
         <Name>Mehl</Name>
       </Ingredient>
@@ -205,7 +205,7 @@
         <Amount>4 m.-große</Amount>
         <Name>Ei(er)</Name>
       </Ingredient>
-      <Ingredient ingID="7">
+      <Ingredient ingID="0">
         <Amount>250 g</Amount>
         <Name>Mehl</Name>
       </Ingredient>
@@ -237,7 +237,7 @@
         <Amount>1 Pck.</Amount>
         <Name>Vanillezucker</Name>
       </Ingredient>
-      <Ingredient ingID="7">
+      <Ingredient ingID="0">
         <Amount>250 g</Amount>
         <Name>Mehl</Name>
       </Ingredient>
@@ -274,7 +274,7 @@
         <Amount>100 g</Amount>
         <Name>Zucker</Name>
       </Ingredient>
-      <Ingredient ingID="7">
+      <Ingredient ingID="0">
         <Amount>35 g</Amount>
         <Name>Mehl</Name>
       </Ingredient>
@@ -300,65 +300,5 @@
 
       Die Menge ergibt ca. 12 Stück, eignet sich toll als Dessert, z.B. mit Puderzucker oder Kakaopulver bestäubt. Dazu serviere ich gern Schlagsahne oder Vanilleeis und frische Früchte.
     </Preparation>
-  </Recipe>
-  <Recipe recID="5">
-    <Name>Focaccia</Name>
-    <Calories>0</Calories>
-    <Time>0</Time>
-    <Ingredients>
-      <Ingredient ingID="7">
-        <Amount>650 g</Amount>
-        <Name>Mehl</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount>170 g</Amount>
-        <Name>Kartoffel(n), gekocht und gerieben</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount>1 Pck.</Amount>
-        <Name>Hefe, frische</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount>1 EL</Amount>
-        <Name>Meersalz, grobes</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount> </Amount>
-        <Name>Meersalz, feines</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount>200 ml</Amount>
-        <Name>Wasser, warmes</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount>8 </Amount>
-        <Name>Kirschtomate(n) oder</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount>1 Dose</Amount>
-        <Name>Tomate(n), stückige</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount>2 </Amount>
-        <Name>Knoblauchzehe(n)</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount> n. B.</Amount>
-        <Name>Olivenöl</Name>
-      </Ingredient>
-      <Ingredient ingID="0">
-        <Amount> </Amount>
-        <Name>Oregano</Name>
-      </Ingredient>
-    </Ingredients>
-    <Preparation>Die Hefe in warmem Wasser auflösen und eine Prise Mehl unterrühren, mit einem Küchentuch abdecken und einige Minuten gehen lassen. In der Mitte des Mehls eine Kuhle formen und die in Wasser gelöste Hefe zugeben und alles gut vermengen. Das grobe Meersalz und die gekochten und geriebenen Kartoffeln untermengen. 
-
-Den Teig gut durchkneten. Bei Bedarf noch etwas warmes Wasser zugeben. Den Teig zu einer Kugel formen und 2 Stunden an einem warmen Ort abgedeckt gehen lassen. 
-
-Ein Backblech mit Olivenöl gut einfetten. Den Teig nach belieben portionieren und 1 cm dick ausrollen. Den in Stücke geschnittenen Knoblauch in den Teig drücken. Halbierte Kirschtomaten auf dem Teig zerdrücken oder stückige Tomaten auf dem Teig verteilen. Mit Oregano und feinem Meersalz würzen. Reichlich Olivenöl über den Teig verteilen. 
-
-Den Backofen auf 250°C (Ober-/Unterhitze) vorheizen. Das Backblech auf die zweite Schiene von unten stellen und die Temperatur auf 225°C reduzieren. Ca. 20 - 25 Minuten bis zur gewünschten Bräunung backen. 
-
-Gegessen wird die Focaccia halbiert mit frischem Mozzarella oder Mortadella wie ein Butterbrot oder einfach so mit etwas Salat und Kräuterbutter - sehr sättigend.</Preparation>
   </Recipe>
 </Recipes>
